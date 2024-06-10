@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 3
+   Case Problem 3
+
+   The Save Exotic Animals Trust schema
+   Author: Ronnie Johnson
+   Date:   
+
+   Filename:         roster.xsd
+   Supporting Files: roster.xml
+-->      
+<schema>
+    <xs:simpleType name="pType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="home"/>
+            <xs:enumeration value="cell"/>
+            <xs:enumeration value="work"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="methodType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="phone"/>
+            <xs:enumeration value="personal"/>
+            <xs:enumeration value="Mail"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="levelType">
+        <xs:restriction base="xs:string">
+        <xs:enumeration value="founder"/>
+        
+
+
+</xs:schema>
